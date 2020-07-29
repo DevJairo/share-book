@@ -1,21 +1,26 @@
 .header {
-    background-color: #49beb7;
-    padding: 20px;
-  
-    p {
-      margin: 0px;
-    }
+  background-color: #bfd732;
+  padding: 18px;
+
+  p {
+    margin: 0px;
+    font-weight: bold;
+    color: #515f00;
+    font-size: 22px;
   }
-  
-  .sub-header {
-    background-color: #f4f4f4;
-    a {
-      margin: 5px;
-    }
-    margin-bottom: 20px;
+}
+
+.sub-header {
+  line-height: 45px;
+  box-shadow: 0px 5px 12px -10px rgba(108, 172, 250, 1);
+  a {
+    margin: 5px;
+    text-decoration: none;
+    outline: none;
   }
-  
-  .activex {
-    color: red;
-  }
-  
+  margin-bottom: 20px;
+}
+
+.activex {
+  color: red;
+}

@@ -1,0 +1,13 @@
+.card {
+    margin-bottom: 20px;
+    a, a:hover{
+      text-decoration: none;
+      outline: none;
+    }
+    &-title, &-text {
+      span {
+        font-weight: 500;
+      }
+    }
+  }
+  
