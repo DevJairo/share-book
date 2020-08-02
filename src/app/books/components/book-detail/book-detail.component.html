@@ -5,15 +5,22 @@
       <div class="element-container">
         <h3>Detail</h3>
         <form>
-            <div class="form-group">
-              <label for="exampleInputEmail1">Nombre</label>
-              <input type="name" class="form-control" id="name" value="Brújula..." aria-describedby="name">
-            </div>
-            <div class="form-group">
-              <label for="exampleInputEmail1">Autor</label>
-              <input type="autor" class="form-control" id="autor" value="Diana Uribe" aria-describedby="autor">
-            </div>
-          </form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Nombre</label>
+            <input type="text" class="form-control" name="name" [(ngModel)]="book.name" aria-describedby="name">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Autor</label>
+            <input type="text" class="form-control" name="autor" [(ngModel)]="book.author" aria-describedby="autor">
+          </div>
+          <div class="form-group">
+              <label for="exampleInputEmail1">URl Image</label>
+              <input type="text" class="form-control" name="imageUrl" [(ngModel)]="book.imageUrl" aria-describedby="imageUrl">
+          </div>
+          <!-- <div class="form-group">
+              <button type="submit" class="btn btn-primary">Save</button>
+          </div> -->
+        </form>
       </div>
     </div>
 </div>
